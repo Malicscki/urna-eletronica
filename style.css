@@ -1,0 +1,48 @@
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    min-height: 100vh;
+    background-image: linear-gradient(#9df3c4a1, #D7FBE8);
+    font-family: 'Roboto', Helvetica, sans-serif;
+    
+  }
+  
+  body .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin: 40px 0;
+  }
+  
+   .img-santinho {
+    filter: blur(3px);
+    display: flex;
+    justify-content: center;
+      
+  }
+
+  .fake {
+    width: 100%;
+    min-width: 30%;
+    max-width: 300px;
+    filter: blur(3px);   
+ }
+
+  .santinho, .cabecalho {
+    display: flex;
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bold;
+    padding: 50px ;
+  }
+
+  .voto, .fnews {
+    padding: 5rem;
+    margin-top: 10rem;
+    color: #e49052;
+  }
