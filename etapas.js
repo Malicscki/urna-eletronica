@@ -1,48 +1,76 @@
 let etapas = [
     {
-        titulo: 'VEREADOR',
+        titulo: 'GOVERNADOR',
         numeros: 5,
         candidatos: [
             {
-                numero: '38111',
-                nome: 'Nazaré',
-                partido: 'GLOBAL',
+                numero: '22022',
+                nome: 'Luva de Pedreiro',
+                partido: 'RECEBA',
                 fotos: [
-                    {url: 'nazare.jpg', legenda: 'Vereador', small: false}
+                    {url: 'luva-pedreiro.jpg', legenda: 'Governador', small: false}
                 ]
             },
             {
-                numero: '77222',
-                nome: 'Glória Pires',
-                partido: 'GLOBAL',
+                numero: '02000',
+                nome: 'Luis Sales',
+                partido: 'RAÇA',
                 fotos: [
-                    {url:'gloria-pires.jpg', legenda: 'Vereador'}
+                    {url:'ja-entendi.jpg', legenda: 'Governador'}
+                ]
+            },
+            {
+                numero: '20120',
+                nome: 'Jefferson',
+                partido: 'ALEGRIA',
+                fotos: [
+                    {url:'para-nossa-alegria.jpg', legenda: 'Governador'}
                 ]
             },
         ]
     },
     {
-        titulo: 'PREFEITO',
+        titulo: 'PRESIDENTE',
         numeros: 2,
         candidatos: [
         {
-            numero: '99',
-            nome: 'Pele de cobra',
-            partido: 'ABC',
-            vice: 'Jeremias Maluco',
+            numero: '33',
+            nome: 'Glória Pires',
+            partido: 'GLOBAL',
+            vice: 'Dj André Marques',
             fotos: [
-            {url: 'pele-de-cobra.jpg', legenda: 'Prefeito'},
-            {url: 'jeremias-maluco.jpg', legenda: 'Vice-Prefeito', small:true}
+            {url: 'gloria-pires.jpg', legenda: 'Presidente'},
+            {url: 'andre-marques.jpg', legenda: 'Vice-Presitente', small:true}
             ]
     },
     {
-            numero: '84',
-            nome: 'Zulano',
-            partido: 'QWERTY',
-            Vice: 'Zul',
+            numero: '43',
+            nome: 'Nazaré',
+            partido: 'CONFUSO',
+            Vice: 'Rei do Camarote',
             fotos:[
-                {url: 'serjao-berranteiro.jpg', legenda: 'Prefeito'},
-                {url: 'rei-do-camarote.jpg', legenda: 'Vice-Prefeito', small:true}
+                {url: 'nazare.jpg', legenda: 'Presidente'},
+                {url: 'rei-do-camarote.jpg', legenda: 'Vice-Presitente', small:true}
+                ]
+        },
+        {
+            numero: '80',
+            nome: 'Daniel Orivaldo',
+            partido: 'COBRA',
+            Vice: 'Serjão Berranteiro',
+            fotos:[
+                {url: 'pele-de-cobra.jpg', legenda: 'Presidente'},
+                {url: 'serjao-berranteiro.jpg', legenda: 'Vice-Presitente', small:true}
+                ]
+        },
+        {
+            numero: '21',
+            nome: 'Jeremias Maluco',
+            partido: 'MIL',
+            Vice: 'Ladrão 38',
+            fotos:[
+                {url: 'jeremias-maluco.jpg', legenda: 'Presidente'},
+                {url: 'ladrao-38.jfif', legenda: 'Vice-Presidente', small:true}
                 ]
         },
     ]
