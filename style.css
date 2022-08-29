@@ -27,13 +27,6 @@
       
   }
 
-  .fake {
-    width: 100%;
-    min-width: 30%;
-    max-width: 300px;
-    
- }
-
   .santinho, .cabecalho {
     display: flex;
     font-size: 2rem;
@@ -68,6 +61,17 @@
     margin-top: 450px;
   }
 
+  .cola {
+    display: flex;
+    justify-content: center;
+      
+  }
+
+  .governador-cola, .presidente-cola{
+    padding: 10px 15px 20px;
+    color: #FFFFFF;
+  }
+
   .redes-sociais {
     text-align: center;
     font-size: 20px;
@@ -78,6 +82,10 @@
   .btn_social {
     margin-top: 350px;
 
+  }
+
+  .botao-social {
+    margin: 0px 0px 300px 0px;
   }
 
   
