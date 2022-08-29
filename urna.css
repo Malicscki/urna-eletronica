@@ -12,22 +12,20 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.topo {
-   
-}
+
 
 .urna{
-    background-color:#dbd5c9;
+    background-color:#ffffff;
     padding:30px;
-    width: 700px;
+    width: 650px;
     display: flex;
+    border-radius: 30px;
 }
 
 .tela{
-    width:500px;
-    height:320px;
-    background:linear-gradient(to right,#E8E8E8,#C1C1C1);  
-    border:2px solid#555;
+    width:600px;
+    height:300px;
+    border:2px solid rgb(151, 151, 151);
     display: flex;
     flex-direction: column;
   
@@ -35,7 +33,7 @@ body{
 
 .teclado{
     margin-left:30px;
-    background-color:#403A3A;
+    background-color:#ffffff;
 }
 
 .teclado--linha{
@@ -47,29 +45,33 @@ body{
  .teclado--botao{
     width:70px;
     height:40px;
-    background-color:#000;
-    color:#FFF;
+    background-color:rgb(150, 150, 150);
+    color:#ffffff;
     font-size:25px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 10px;
     cursor: pointer;
-    box-shadow:3px 3px 0px#555;
+    box-shadow:3px 3px 0px rgba(0, 0, 0, 0.705);
+    border-radius: 5px;
  }
 
  .botao--branco{
    background-color:#FFF;
    color:#000;
+   font-weight: bold;
    font-size:15px;
 }
 .botao--corrige{
+    font-weight: bold;
     background-color:#F09046;
    color:#000;
    font-size:15px;
 }
    
 .botao--confirma{
+   font-weight: bold;
    background-color:#48C079;
    color:#000;
    font-size:15px;
